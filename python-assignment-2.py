@@ -12,6 +12,7 @@
 """
 
 
+# Definition for Get Pyramid function
 def get_Pyramid(columns=None):
     try:
         if columns is None:
@@ -52,6 +53,7 @@ get_Pyramid(5)
 """
 
 
+# Definition for Get Reverse Word function
 def get_reverse_word():
     while True:
         input_word = input("Please enter a word: ").strip()

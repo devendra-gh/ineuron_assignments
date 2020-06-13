@@ -4,6 +4,7 @@
 """
 
 
+# Definition for my reduce function
 def my_reduce(func, list_values):
     result = list_values[0]
 
@@ -19,6 +20,7 @@ def my_reduce(func, list_values):
 """
 
 
+# Definition for my filter function
 def my_filter(func, list_values):
     result = []
 
@@ -46,6 +48,7 @@ get_list_one
 """
 
 
+# Definition for Get first List function
 def get_list_one(list_one=None, iteration=None):
     try:
         if list_one is None or iteration is None:
@@ -73,6 +76,7 @@ get_list_two
 """
 
 
+# Definition for Get Second List function
 def get_list_two(list_two=None, iteration=None):
     try:
         if list_two is None or iteration is None:
@@ -100,6 +104,7 @@ get_list_three
 """
 
 
+# Definition for Get Third List function
 def get_list_three(start=None, iteration=None):
     try:
         if start is None or iteration is None:
@@ -126,6 +131,7 @@ get_list_four
 """
 
 
+# Definition for Get Fourth List function
 def get_list_four(start=None, iteration=None):
     try:
         if start is None or iteration is None:
@@ -152,6 +158,7 @@ get_list_five
 """
 
 
+# Definition for Get Fifth List function
 def get_list_five(list_five=None):
     try:
         if list_five is None:

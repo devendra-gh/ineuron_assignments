@@ -7,6 +7,7 @@ import math
 """
 
 
+# Definition for Get Valid Numbers function
 def get_valid_numbers(range_start=None, range_stop=None):
     try:
         if range_start is None or range_stop is None:
@@ -40,6 +41,7 @@ get_valid_numbers(2000, 3200)
 """
 
 
+# Definition for Get Name reverse order function
 def get_name_reverse_order():
     name = list()
 
@@ -62,6 +64,7 @@ get_name_reverse_order()
 """
 
 
+# Definition for Get Sphere volume function
 def get_sphere_volume(diameter=None):
     try:
         if diameter is None:
